@@ -1,0 +1,15 @@
+figure(1)
+[t1,y1]=Ej1A(0,1,4,5,3,pi);
+ plot(t1,y1)
+figure(2)
+ [t2,y2]=Ej1A(0,1,10,5,3,pi);
+  plot(t2,y2)
+figure(3)
+ [t3,y3]=Ej1A(0,1,25,5,3,pi);
+ plot(t3,y3)
+figure(4)
+ [t4,y4]=Ej1A(0,1,100,5,3,pi);
+ plot(t4,y4)
+figure(5)
+ [t5,y5]=Ej1A(0,1,1,5,3,pi);
+ plot(t5,y5)
